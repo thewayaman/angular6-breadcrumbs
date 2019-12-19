@@ -1,0 +1,6 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li  *ngFor="let val of breadCrumbsLabelArray;let i = index"  (click)="goBack(i)"  class="breadcrumb-item">
+      {{val}} </li>
+  </ol>
+</nav>
